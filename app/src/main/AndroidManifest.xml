@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".App" >
+        android:name=".ui.App" >
 
         <activity
-            android:name=".home.HomeActivity"
+            android:name="com.fightpandemics.ui.activities.HomeActivity"
             android:theme="@style/AppTheme.NoActionBar">
 
             <intent-filter>
